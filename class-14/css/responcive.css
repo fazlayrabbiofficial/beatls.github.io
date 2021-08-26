@@ -1,0 +1,196 @@
+/*/ X-Small devices (portrait phones, less than 576px)*/
+@media (min-width:320px) and (max-width: 575px) { 
+	.welcome{
+		text-align: center;
+	}
+	.icon{
+		display: none;
+	}
+/* menu part responsive start */
+	.navbar-brand img{
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+	.navbar .nav-item .nav-link{
+		background-color: pink;
+		text-align: center;
+		border: 1px solid #fff;
+	}
+	
+/* menu part responsive End */
+/* banner part responsive Start */
+	.b_con{
+		text-align: center;
+	}
+	.b_con h1{
+		font-size: 34px;
+	}
+/* banner part responsive End */
+/* About part responsive start */
+	.a-img img{
+		margin-left: 20px;
+	}
+	.a_con{
+		margin-left: 20px;
+	}
+	.a_con{
+		margin-top: 10px;
+	}
+	.sm-d{
+		display: none;
+	}
+/* About part responsive End */
+/* service part responsive start*/
+	.ser_icon_main {
+    left: 105px;
+    top: -40px;
+	margin-bottom: 20px;
+}
+	.ser_con{
+		margin-left: 15px;
+	}
+/* service part responsive End */
+/* protfolio part responsive start */
+	
+	.big_img{
+		margin-bottom: 20px;
+		margin-left: 12px;
+	}
+	.small_img{
+		margin-left: 12px;
+	}
+/* protfolio part responsive End */
+/* team part responsive start */
+	.team_img{
+		margin-left: 15px;
+	}
+	.team_title{
+		margin-top: 10px;
+	}
+/* team part responsive End */
+/* testimonial part responsive start */
+	
+	
+	.round_img{
+		margin-top: 20px;
+	}
+	.piramid{
+		left: 106px;
+	}
+/* testimonial part responsive End */
+/* footer part responsive start */
+	 footer{
+        text-align: center;
+    }
+    
+    .f_icon a{
+        margin-left: 30px;
+    }
+    .f_email p{
+        text-align: left;
+    }
+	.f_menu{
+		margin-left: 60px;
+	}
+	
+/* footer part responsive End */
+	
+}
+
+/*/ Small devices (landscape phones, less than 768px)*/
+@media (min-width:576px) and (max-width: 767px) { 
+  .icon{
+		display: none;
+	}
+.navbar .nav-item .nav-link{
+		background-color: gray;
+		text-align: center;
+		border: 1px solid #fff;
+	}
+	
+	.a_con p{
+		font-size: 15px;
+	}
+		.sm-d{
+		display: none;
+	}
+	.ser_icon_main {
+    left: 210px;
+    top: -40px;
+	margin-bottom: 20px;
+}
+	.big_img{
+		margin-bottom: 20px;
+	}
+	.team_title{
+		margin-top: 20px;
+	}
+	.piramid{
+		left: 213px;
+	}
+	.footer_com_head{
+		text-align: center;
+	}
+	.f_logo{
+		text-align: center;
+	}
+	.f_con{
+		text-align: center;
+	}
+	.f_icon{
+		margin-left: 80px;
+	}
+	.f_menu{
+		margin-left: 80px;
+	}
+	
+}
+
+/*/ Medium devices (tablets, less than 992px)*/
+@media (min-width:768px) and (max-width: 991px) { 
+      .navbar .nav-item .nav-link{
+		background-color: darksalmon;
+		text-align: center;
+		border: 1px solid #fff;
+	}
+	.a_con{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+	.sm-d{
+		display: none;
+	}
+	.ser_icon_main {
+    left: 70px;
+}
+	.piramid{
+		left: 125px;
+	}
+	
+	.f_menu{
+		line-height: 10px;
+	}
+
+}
+
+/*/ Large devices (desktops, less than 1200px)*/
+@media (min-width:992px) and (max-width: 1199px) {
+	.a_con{
+		margin-top: 20px;
+	}
+  .ser_icon_main {
+    left: 110px;
+}
+	.piramid{
+		left: 180px;
+	}
+	
+	
+}
+
+/*/ X-Large devices (large desktops, less than 1400px)*/
+@media (min-width:1200px) and (max-width: 1399px) {...}
+
+/*/ XX-Large devices (larger desktops)*/
+@media (min-width:1400px) { ... }
+/*/ No media query since the xxl breakpoint has no upper bound on its width*/
